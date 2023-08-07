@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* all css */
+.container{
+    width: 95cqw;
+    margin: 0 auto;
+}
+.sub-tittle {
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 2cqw;
+    padding: 1cqw;
+    color: white;
+}
+.black-text{
+    font-size: 2.5cqw;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+.main-bg{
+    position: absolute;
+    top: 0;
+}
+.main-cover{
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    z-index: 11;
+    width: inherit;
+    height: inherit;
+}
+.main-item{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main .main-bg img{
+    width: 100vw;
+    height: 100vh;
+}
+/* .main .main-logo img{
+    /* position: absolute;
+    top: 0; */
+/* UNLOCK */
+
+.unlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: -webkit-fill-available;
+    position: absolute;
+    overflow: hidden;
+}
+.u-description{
+    max-width: 52cqw;
+}
+.u-description .tittle{
+    color: blueviolet;
+    font-size: 3cqw;
+    position: relative;
+    bottom: 5cqh;
+}
+.u-image{
+    position: absolute;
+    right: -5cqw;
+}
+.u-image img{
+    border-radius: 25cqw 25cqw 0 0;
+    width: 45cqw;
+}
+/* choose */
+
+.tittle-bg{
+    color: white;
+    background-color: blueviolet;
+    width: 50cqw;
+    font-size: 2cqw;
+    position: relative;
+    left: -3cqw;
+    bottom: 5cqh;
+    letter-spacing: 1cqw;
+    padding: 1cqw 3cqw;
+}
+.choose{
+    background-color: black;
+}
+.choose .container{
+    position: relative;
+}
+.c-item{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    width: auto;
+
+}
+.c-left, .c-right{
+    position: relative;
+}
+.text-wrapper{
+    display: flex;
+    position: relative;
+}
+.c-left .text-wrapper{
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: 10cqh;
+    line-height: 4cqh;
+}
+.c-right{
+    height: 100vh;
+}
+.c-right .text-wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 4cqh;
+    height: inherit;
+    bottom: 5cqh;
+
+}
+.text-item .sub-tittle{
+    background-color: unset;
+    border: unset;
+    padding: unset;
+}
+.text{
+    color: white;
+    width: 30cqw;
+    font-size: 1.5cqw;
+}
+.text-item{
+    margin: 0 1cqw;
+}
+/* advantages */
+.advantages{
+    position: relative;
+}
+.advantages .tittle-bg{
+    bottom: unset;
+    top: 10cqh;
+}
+
+.a-item{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 80cqh;
+    align-items: end;
+}
+.a-image img{
+    width: 10cqw;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 1cqw;
+}
+.a-tittle{
+    color: white;
+    font-size: 2.5cqw;
+}
+.a-elements{
+    width: 40cqw;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1cqw;
+    border-radius: 1cqw;
+    border: 1px solid white;
+}
+.a-description{
+    font-size: 2cqw;
+    color: white;
+}
+
+/* join network */
+.top-item{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 1vh 0;
+    border: 2px solid white;
+}
+.members{
+    display: flex;
+    width: 95cqw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5cqh auto 0;
+}
+.member{
+    display: inherit;
+    margin: 0px 1cqw;
+    /* justify-content: space-between; */
+}
+.memberImg img{
+    width: 15cqw;
+
+}
+.aboutMember{
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+.join-description{
+    font-size: 3cqw;
+    width: 84cqw;
+    text-align: center;
+    margin: 10cqh auto 0;
+    font-style: normal;
+}
+
+.contact-us{
+    position: relative;
+}
+.contact-us .tittle{
+    position: relative;
+    color: white;
+    z-index: 15;
+    width: 45cqw;
+    font-size: 4cqw;
+    top: 35cqh;
+}
+.info-block{
+    position: relative;
+    color: white;
+    z-index: 15;
+    top: 35cqh;
+}
+.contact-tittle{
+    font-size: 2.5cqw;
+    width: fit-content;
+    padding-left: 5cqh;
+    letter-spacing: 1cqw;
+
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 31cqw;
+    padding-left: 3cqw;
+}
+.member-item span{
+    display: block;
+}
+.question{
+    width: 100cqw;
+    height: -webkit-fill-available;
+}
