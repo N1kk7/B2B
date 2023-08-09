@@ -80,7 +80,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    width: -webkit-fill-available;
+    width: 85vw;
     position: absolute;
     overflow: hidden;
 }
@@ -102,7 +102,7 @@ body{
 }
 .u-image img{
     border-radius: 25cqw 25cqw 0 0;
-    width: 45cqw;
+    width: 50cqw;
 }
 /* choose */
 
@@ -252,6 +252,7 @@ body{
 }
 .join-description{
     font-family: 'Montserrat', sans-serif;
+    color: blueviolet;
     font-size: 3cqw;
     width: 84cqw;
     display: flex;
@@ -337,13 +338,14 @@ body{
         width: 80cqw;
         font-size: 2cqh;
         position: absolute;
-        bottom: 4vh;
+        bottom: 5vh;
     }
     .u-description {
         display: inherit;
         flex-direction: column;
         height: inherit;
         justify-content: space-evenly;
+        padding-left: 2cqw;
     }
     .black-text {
         font-size: 4cqw;
@@ -417,13 +419,13 @@ body{
     }
     .advantages .tittle-bg {
         top: 8cqh;
-        font-size: 2cqh;
+        font-size: 1.5cqh;
         width: fit-content;
     }
     .advantages .main-bg img {
         width: 100vw;
         max-height: unset;
-        height: 100cqh;
+        height: -webkit-fill-available;
         background-size: auto;
     }
     .a-description {
@@ -433,7 +435,7 @@ body{
         font-size: 2cqh;
     }
     .join-description {
-        font-size: 7cqw;
+        font-size: 6cqw;
     }
     .contact-us .tittle {
         font-size: 3.5cqh;
@@ -449,7 +451,9 @@ body{
         font-size: 2cqh;
     }
     .question-item {
-        width: 68cqw;
+        width: 75cqw;
+margin-right: unset;
+        /* width: 68cqw; */
     }
 
 
