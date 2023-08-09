@@ -305,6 +305,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 
     width: -webkit-fill-available;
+    height: min-content;
 }
 .question-wrapper{
     display: flex;
