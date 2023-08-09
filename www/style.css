@@ -360,6 +360,9 @@ body{
         top: 2vh;
         width: fit-content;
     }
+    .a-item{
+        height: 87cqh;
+    }
     .c-item {
         flex-direction: column;
 
@@ -422,6 +425,9 @@ body{
     }
     .contact-wrapper {
         width: 60cqw;
+    }
+    .question{
+        font-size: 2cqh;
     }
     .question-item {
         width: 68cqw;
