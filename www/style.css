@@ -154,9 +154,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255,255,255, 0.15);
+    /* background: rgba(255,255,255, 0.15); */
     height: 50cqh;
     margin-bottom: 5cqh;
+    border-radius: 5cqw;
 }
 .logo span{
     font-family: "Montserrat", sans-serif;
