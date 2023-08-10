@@ -453,6 +453,8 @@ body{
         font-size: 0;
         text-align: center;
         height: 40cqh;
+        position: relative;
+        bottom: 10cqh;
     }
     .logo span{
         display: inline-block;
@@ -498,7 +500,7 @@ body{
         width: 80cqw;
         font-size: 2cqh;
         position: absolute;
-        bottom: 5vh;
+        bottom: 13vh;
         background-color: rgba(255,255,255, 0.15);
         border: 1px solid white;
         top: unset;
@@ -513,7 +515,7 @@ body{
     .black-text {
         font-size: 4cqw;
         font-family: 'Montserrat', sans-serif;
-        margin-top: 30cqh;
+        margin-top: 10cqh;
     }
     .u-description .tittle {
         bottom: 0cqh;
