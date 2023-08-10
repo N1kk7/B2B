@@ -4,7 +4,6 @@ const cancelBtn = document.querySelector(".cancelBtn");
 const languageItem = document.querySelectorAll(".languageItem");
 const allLang = ['en', 'serb', 'mk'];
 
-
 const langArr = {
     "sub-tittle" : {
         "en" : "YOUR STRATEGIC PROCUREMENT PARTNER",
@@ -215,10 +214,6 @@ cancelBtn.addEventListener('click', () => {
 
 });
 
-// console.log(languageItem);
-// languageItem.onclick = ((elem) => {
-//     console.log(elem)
-// })
 languageItem.forEach(elem => {
     elem.addEventListener('click', () => {
         // langModal.classList.remove('modal-active');
@@ -227,8 +222,8 @@ languageItem.forEach(elem => {
         location.href = window.location.pathname + '#' + lang;
         location.reload();
         // console.log(elem.dataset.value);
-    })
-})
+    });
+});
 
 function changeLanguage() {
     let hash = window.location.hash;
@@ -237,19 +232,10 @@ function changeLanguage() {
         location.href = window.location.pathname + '#en';
         location.reload();
     }
-    // document.querySelector('.sub-tittle').innerHTML = langArr['sub-tittle'][hash];
-    // document.querySelector('.unlockTittle').innerHTML = langArr['unlockTittle'][hash];
-    // document.querySelector('.unlockText').innerHTML = langArr['unlockText'][hash];
     for (let elem in langArr ){
         document.querySelector(`.lng-${elem}`).innerHTML = langArr[elem][hash]
-    }
-
-
-    // console.log(hash);
+    };
 }
 changeLanguage();
-
-// console.log(langArr)
-// document.querySelector('.sub-tittle').innerHTML = ("ololo");
 
 
