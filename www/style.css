@@ -152,7 +152,7 @@ body{
     align-items: center;
     height: 100vh;
    
-     width: -webkit-fill-available;;
+     width: 97cqw;
     position: absolute;
     overflow: hidden;
 }
@@ -441,9 +441,11 @@ body{
     .black-text {
         font-size: 4cqw;
         font-family: 'Montserrat', sans-serif;
+        margin-top: 30cqh;
     }
     .u-description .tittle {
         bottom: 0cqh;
+        width: 65cqw;
     }
     .choose{
         height: fit-content;
@@ -516,7 +518,7 @@ body{
     .advantages .main-bg img {
         width: 100vw;
         max-height: unset;
-        height: -webkit-fill-available;
+        height: 100vh;
         background-size: auto;
     }
     .a-description {
