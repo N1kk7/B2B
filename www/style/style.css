@@ -8,6 +8,11 @@ body{
     padding: 0;
 }
 
+@font-face {
+    font-family: "Ramillas";
+    src:
+        url(../fonts/tt_ramillas/TT\ Ramillas\ Trial\ Black\ Outline.ttf)
+  }
 /* all css */
 .container{
     width: 95cqw;
@@ -16,6 +21,7 @@ body{
 .sub-tittle {
     background-color: rgba(0,0,0, 0.5);
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 1cqw;
     width: 60cqw;
     text-align: center;
@@ -98,7 +104,7 @@ body{
     padding-left: 1.5cqw;
 }
 .lang-modal img{
-    width: 3cqw;
+    width: 2cqw;
 }
 .lang-btn{
     cursor: pointer;
@@ -195,6 +201,15 @@ body{
     position: relative;
     bottom: 5cqh;
 }
+.u-description .tittle h1{
+    font-weight: 400;
+}
+.u-description .tittle bold{
+    font-weight: 700;
+
+}
+
+
 .u-image{
     position: absolute;
     right: -5cqw;
@@ -267,6 +282,18 @@ body{
     background-color: unset;
     border: unset;
     padding: unset;
+}
+.chooseNumber{
+    font-family: "Ramillas";
+    font-size: 15cqh;
+    color: blueviolet;
+    position: absolute;
+    bottom: -7cqh;
+    z-index: -1;
+}
+.choose .four{
+    bottom: -11cqh;
+
 }
 .text{
     font-family: 'Montserrat', sans-serif;
@@ -416,6 +443,7 @@ body{
     justify-content: space-evenly;
 }
 .question-number{
+    font-family: Ramillas;
     color: blueviolet;
     width: 10cqw;
     display: inherit;
@@ -444,6 +472,9 @@ body{
         font-family: 'Montserrat', sans-serif;
         font-size: 2.5cqh;
         color: white;
+    }
+    .chooseNumber .one {
+        bottom: -1;
     }
 }
 
@@ -563,6 +594,10 @@ body{
         font-size: 1.5cqh;
         line-height: 3cqh;
         width: 85cqw;
+    }
+    .chooseNumber, .four {
+        font-size: 6cqh;
+        bottom: -3cqh;
     }
     .text {
         /* padding-top: 2cqh; */
