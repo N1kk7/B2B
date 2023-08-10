@@ -473,8 +473,8 @@ body{
         font-size: 2.5cqh;
         color: white;
     }
-    .chooseNumber .one {
-        bottom: -1;
+    .choose .one {
+        bottom: -1cqh;
     }
 }
 
@@ -595,9 +595,13 @@ body{
         line-height: 3cqh;
         width: 85cqw;
     }
-    .chooseNumber, .four {
-        font-size: 6cqh;
-        bottom: -3cqh;
+    .chooseNumber{
+        font-size: 8cqh;
+        right: -4cqw;
+        bottom: -5cqh;
+    }
+    .choose .four {
+        bottom: -6cqh;
     }
     .text {
         /* padding-top: 2cqh; */
