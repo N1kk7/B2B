@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 .sub-tittle {
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0,0,0, 0.5);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1cqw;
     width: 60cqw;
@@ -27,6 +27,7 @@ body{
     border-radius: 2cqw;
     padding: 1cqw;
     color: white;
+    top: 7cqh;
 }
 .black-text{
     font-size: 2cqw;
@@ -49,6 +50,7 @@ body{
     width: inherit;
     height: inherit;
 }
+
 
 .cancelBtn img{
     background-color: white;
@@ -142,6 +144,28 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.logo{
+    /* width: 45cqw;
+    height: 45cqw; */
+    width: 30cqw;
+    color: white;
+    font-size: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255, 0.15);
+    height: 50cqh;
+    margin-bottom: 5cqh;
+}
+.logo span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10cqw !important;
+}
+.arrow{
+    color: blueviolet;
+
+}
 /* .main .main-logo img{
     /* position: absolute;
     top: 0; */
@@ -204,6 +228,9 @@ body{
     align-items: center;
     width: auto;
 
+}
+.choose .sub-tittle{
+    top: 0;
 }
 .c-left, .c-right{
     position: relative;
@@ -348,13 +375,13 @@ body{
     z-index: 15;
     width: 45cqw;
     font-size: 5cqh;
-    top: 50cqh;
+    top: 45cqh;
 }
 .info-block{
     position: relative;
     color: white;
     z-index: 15;
-    top: 47cqh;
+    top: 42cqh;
 }
 .contact-tittle{
     font-family: 'Montserrat', sans-serif;
@@ -400,7 +427,46 @@ body{
     width: 50cqw;
     margin-right: 10cqw;
 }
+@media only screen and (min-width: 900px) {
+    .main {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .logo {
+        width: 35cqw;
+        height: 43cqh;
+    }
+    .a-description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5cqh;
+        color: white;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .logo{
+        width: 63cqw;
+        color: white;
+        font-size: 0;
+        text-align: center;
+        height: 40cqh;
+    }
+    .logo span{
+        display: inline-block;
+        font-size: 22cqw !important; 
+    }
+    .arrow{
+        position: relative;
+        display: inline-block;
+        color: blueviolet;
+        font-size: 22cqw;
+    }
+    .mainBlock{
+        background-color: black;
+    }
     .lang-btn img {
         width: 10cqw;
     }
@@ -433,6 +499,9 @@ body{
         font-size: 2cqh;
         position: absolute;
         bottom: 5vh;
+        background-color: rgba(255,255,255, 0.15);
+        border: 1px solid white;
+        top: unset;
     }
     .u-description {
         display: inherit;
@@ -512,7 +581,7 @@ body{
     }
 
     .a-description {
-        font-size: 2cqh;
+        font-size: 2.2cqh;
     }
     .advantages .tittle-bg {
         top: 8cqh;
@@ -525,24 +594,32 @@ body{
         height: 100vh;
         background-size: auto;
     }
-    .a-description {
-        font-size: 2cqh;
-    }
     .top-item {
         font-size: 2cqh;
     }
     .join-description {
         font-size: 6cqw;
     }
+    .contact-us{
+        background-color: black;
+    }
     .contact-us .tittle {
         font-size: 3.5cqh;
         width: fit-content;
     }
     .info-block {
-        top: 65cqh;
+        top: 63cqh;
+        background-color: rgba(255,255,255, 0.1);
+        padding: 1cqw;
+        border: 1px solid white;
+        border-radius: 3cqw;
+        text-align: -webkit-center;
     }
     .contact-wrapper {
         width: 60cqw;
+    }
+    .contact-tittle{
+        padding-left: unset;
     }
     .question{
         font-size: 2cqh;
