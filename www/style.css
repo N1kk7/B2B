@@ -48,6 +48,75 @@ body{
     width: inherit;
     height: inherit;
 }
+
+.cancelBtn img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 1cqw;
+}
+
+.lang-modal{
+    position: absolute;
+    top: 5vh;
+    z-index: 20;
+    right: -25cqw;
+    background-color: rgba(0,0,0, 0.75);
+    width: 20cqw;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 1cqw;
+    transition: all ease 0.7s;
+
+}
+.modal-active{
+    transition: all ease 0.7s;
+    right: 5cqw;
+}
+.lang-modal ul{
+    padding: 0 2cqw 2cqw;
+}
+.lang-modal li{
+    list-style: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    cursor: pointer;
+}
+.cancelBtn{
+    border-bottom: unset !important;
+    padding-bottom: unset !important;
+    text-align: end;
+}
+.language{
+    color: white;
+    font-size: 2cqw;
+    font-family: "Montserrat" sans-serif;
+    padding-left: 1.5cqw;
+}
+.lang-modal img{
+    width: 3cqw;
+}
+.lang-btn{
+    cursor: pointer;
+}
+.lang-btn img{
+    width: 3.5cqw;
+    position: absolute;
+    background-color: rgba(255,255,255, 0.8);
+    z-index: 15;
+    padding: 5px;
+    border-radius: 1cqw;
+    right: 5cqw;
+    top: 5cqh;
+    transition: all ease 0.7s;
+
+}
+.lang-hide img{
+    top: -10cqh;
+    transition: all ease 0.7s;
+
+}
+
 .main-logo{
     position: relative;
     z-index: 15;
@@ -56,6 +125,7 @@ body{
     width: 60cqh;
 }
 .main-item{
+    overflow: hidden;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -80,9 +150,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    /* width: 85vw;
-     */
-     width: 98vw;
+   
+     width: -webkit-fill-available;;
     position: absolute;
     overflow: hidden;
 }
