@@ -31,6 +31,7 @@ body{
 .black-text{
     font-size: 2cqw;
     font-family: 'Montserrat', sans-serif;
+    padding-right: 5cqw;
 
 }
 .main{
@@ -61,7 +62,7 @@ body{
     z-index: 20;
     right: -25cqw;
     background-color: rgba(0,0,0, 0.75);
-    width: 20cqw;
+    width: 23cqw;
     height: fit-content;
     border: 1px solid white;
     border-radius: 1cqw;
@@ -163,6 +164,7 @@ body{
     color: blueviolet;
     font-size: 3cqw;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 
 
     position: relative;
@@ -243,7 +245,7 @@ body{
 
     color: white;
     width: 30cqw;
-    font-size: 1.5cqw;
+    font-size: 1.2cqw;
 }
 .text-item{
     margin: 0 1cqw;
@@ -283,6 +285,7 @@ body{
     border-radius: 1cqw;
     border: 1px solid white;
     margin-bottom: 5cqh;
+    min-height: 60vh;
 }
 .a-description{
     font-family: 'Montserrat', sans-serif;
@@ -470,6 +473,7 @@ body{
     .a-elements {
         width: 95cqw;
         margin-bottom: 3cqh;
+        min-height: 35vh;
    
     }
     .c-item {
