@@ -446,23 +446,23 @@ body{
 
 @media only screen and (max-width: 600px) {
     .logo{
-        width: 63cqw;
+        width: 50cqw;
         color: white;
         font-size: 0;
         text-align: center;
-        height: 40cqh;
+        height: 25cqh;
         position: relative;
         bottom: 10cqh;
     }
     .logo span{
         display: inline-block;
-        font-size: 22cqw !important; 
+        font-size: 15cqw !important; 
     }
     .arrow{
         position: relative;
         display: inline-block;
         color: blueviolet;
-        font-size: 22cqw;
+        font-size: 15cqw;
     }
     .mainBlock{
         background-color: black;
@@ -499,6 +499,7 @@ body{
         bottom: 13vh;
         background-color: rgba(255,255,255, 0.15);
         border: 1px solid white;
+        line-height: 4cqh;
         top: unset;
     }
     .u-description {
@@ -507,6 +508,9 @@ body{
         height: inherit;
         justify-content: space-evenly;
         padding-left: 2cqw;
+    }
+    .u-image img {
+        width: 45cqw;
     }
     .black-text {
         font-size: 4cqw;
