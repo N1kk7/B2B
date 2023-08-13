@@ -12,7 +12,7 @@ const langArr = {
 
     },
     "unlockTittle" : {
-        "en" : "Unlock Cost-Saving Opportunities with Us!",
+        "en" : `Unlock <b>Cost-Saving</b> Opportunities <br><b>with Us!</b>`,
         "serb" : "Iskoristite sa nama mogućnosti uštede i povraćaja sredstava!",
         "mk" : "ИСКОРИСТЕТЕ ГИ СО НАС МОЖНОСТИТЕ ЗА ЗАШТЕДА И ПОВРАТ НА СРЕДСТВА!"
     },
@@ -22,7 +22,7 @@ const langArr = {
         "mk" : "Дали сте уморни од поскапувањата до небо на трошоците на набавка, кои ја нагризуваат Вашата добивка? Тогаш, B2B е Вашата можност за значително намалување на трошоците за деловни набавки. Влезете во соработка со нас, со цел да Ви овозможиме пристап кон нашиот свет на заштеди!"
     },
     "chooseTittle" : {
-        "en" : "Why Choose B2B?",
+        "en" : "Why Choose <b>B2B?</b>",
         "serb" : "Zašto B2B?",
         "mk" : "Зошто B2B?"
     },
@@ -67,7 +67,7 @@ const langArr = {
         "mk" : "Преку нашите платформи, се трудиме постојано да обезбедиме полесно и UserFriendly-искуство при набавките. Фокусирајте се на основата на Вашиот бизнис и дозволете ни да Ве придружуваме преку интеграција на нашите системи на Indenting & Outsourcing во Вашите набавки. "
     },
     "advTittle" : {
-        "en" : "B2B Advantages:",
+        "en" : "B2B <b>ADVANTAGES:</b>",
         "serb" : "PREDNOSTI NAŠIH SISTEMA NABAVKE:  ",
         "mk" : "Предности на нашите системи на набавка:"
     },

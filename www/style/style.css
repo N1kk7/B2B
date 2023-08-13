@@ -397,6 +397,7 @@ body{
 .member-item span{
     line-height: 4cqh;
     display: block;
+    letter-spacing: 0.5cqw;
 }
 .question{
     margin: 5cqh 0;
@@ -529,8 +530,8 @@ body{
         min-width: 90cqw;
     }
     .u-image{
-        right: unset;
-        bottom: 7cqh;
+        right: 3cqw;
+        bottom: 10cqh;
     }
     .u-image img {
         /* width: 75cqw; */
@@ -541,13 +542,14 @@ body{
         font-size: 4cqw;
         font-family: 'Montserrat', sans-serif;
         position: relative;
-        top: 15cqh;
-        line-height: 5cqh;
+        top: 8cqh;
+        line-height: 3cqh;
     }
     .u-description .tittle {
         bottom: unset;
-        width: 65cqw;
+        width: 85cqw;
         top: 5cqh;
+        font-size: 2cqh;
     }
     .choose{
         height: fit-content;
@@ -639,26 +641,40 @@ body{
         background-color: black;
     }
     .contact-us .tittle {
-        font-size: 3.5cqh;
-        width: fit-content;
+        font-size: 2.5cqh;
+        width: 50cqw;
+        top: initial;
+        bottom: 28cqh;
+        position: absolute;
     }
-    .info-block {
-        top: 63cqh;
-        background-color: rgba(255,255,255, 0.1);
+    .contact-us .tittle h1{
+        font-weight: 400;
+    }
+    .contact-us .main-bg img{
+        object-position: left;
+    }
+    .contact-us .info-block {
+        top: initial;
+        position: absolute;
+        bottom: 15cqh;
         padding: 1cqw;
-        border: 1px solid white;
-        border-radius: 3cqw;
-        text-align: -webkit-center;
     }
     .contact-wrapper {
         width: 60cqw;
     }
     .contact-tittle{
         padding-left: unset;
+        font-size: 4cqh;
+        text-transform: uppercase;
+    }
+    .contact-tittle h3{
+        font-weight: 400;
+        margin: 2cqh 0 0;
+        letter-spacing: 0;
     }
     .member-contact{
         align-items: center;
-        display: inherit;
+        display: none;
     }
     .question{
         font-size: 2cqh;
