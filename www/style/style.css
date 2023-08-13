@@ -487,15 +487,21 @@ body{
     .main-logo img {
         max-width: 100vw;
     }
-    .mainBlock .main-bg img {
+    /* .mainBlock .main-bg img {
         width: 100vw;
         max-height: 100cqh !important;
         object-fit: cover;
-    }
+    } */
     .main .main-bg img {
+
         width: 100vw;
+        max-height: 100cqh !important;
+        object-fit: cover;
+
+
+        /* width: 100vw;
         max-height: 70cqh;
-        background-size: auto;
+        background-size: auto; */
     }
     .sub-tittle{
         width: 80cqw;
@@ -503,24 +509,40 @@ body{
         position: absolute;
         bottom: 13vh;
         /* background-color: rgba(255,255,255, 0.15); */
-        background-color: rgba(0,0,0, 0.3);
+            background-color: rgba(0,0,0, 0.3);
         border: 1px solid white;
         line-height: 4cqh;
         top: unset;
     }
+    .unlock{
+        flex-direction: column-reverse;
+        left: 0;
+        width: -webkit-fill-available;
+    }
+    
     .u-description {
         display: inherit;
         flex-direction: column;
         height: inherit;
-        justify-content: space-evenly;
-        padding-left: 2cqw;
+        /* justify-content: space-evenly; */
+        /* padding-left: 2cqw; */
+        min-width: 90cqw;
+    }
+    .u-image{
+        right: unset;
+        bottom: 7cqh;
     }
     .u-image img {
-        width: 45cqw;
+        /* width: 75cqw; */
+        width: 43cqh;
+        max-width: 90cqw;
     }
     .black-text {
         font-size: 4cqw;
         font-family: 'Montserrat', sans-serif;
+        position: relative;
+        top: 15cqh;
+        line-height: 5cqh;
     }
     .u-description .tittle {
         bottom: unset;
@@ -633,6 +655,10 @@ body{
     }
     .contact-tittle{
         padding-left: unset;
+    }
+    .member-contact{
+        align-items: center;
+        display: inherit;
     }
     .question{
         font-size: 2cqh;
