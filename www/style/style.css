@@ -442,6 +442,9 @@ body{
         font-size: 3.5cqh;
         color: white;
     }
+    .chooseNumber{
+        left: -3cqw;
+    }
     .choose .one {
         bottom: -1cqh;
     }
@@ -534,6 +537,7 @@ body{
         position: relative;
         width: inherit;
         justify-content: end;
+        margin: auto 0;
     }
     .u-image img {
         /* width: 75cqw; */
