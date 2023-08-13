@@ -612,6 +612,7 @@ body{
     }
     .chooseNumber{
         font-size: 8cqh;
+        left: unset;
         right: -4cqw;
         bottom: -5cqh;
     }
