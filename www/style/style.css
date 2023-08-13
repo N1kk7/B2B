@@ -530,9 +530,10 @@ body{
     .u-image{
         /* right: 3cqw;
         bottom: 5cqh; */
-        right: 0cqw;
         display: inherit;
         position: relative;
+        width: inherit;
+        justify-content: end;
     }
     .u-image img {
         /* width: 75cqw; */
