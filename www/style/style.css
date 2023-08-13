@@ -524,7 +524,8 @@ body{
     }
     .u-image img {
         /* width: 75cqw; */
-        width: 43cqh;
+        /* width: 43cqh; */
+        width: 48cqh;
         max-width: 90cqw;
     }
     .black-text {
