@@ -200,7 +200,13 @@ const langArr = {
         "en" : "To get started, simply reach out to us through our website or contact information provided on our marketing materials. Our team will schedule a consultation to understand your business needs and explain how we can help you achieve significant savings on your procurement costs.",
         "serb" : "Za početak, jednostavno nas kontaktirajte preko ove veb-stranice. Naš tim će dogovoriti konsultativni sastanak sa Vama, s ciljem da Vam detaljnije prezentiramo, kako Vam možemo pomoći u obezbeđivanju efektivnih poslovnih ušteda. Mogučnosti dodele sistema franšize su uvek otvorene za lica zainteresovanih za bližu saradnju.",
         "mk" : "За почеток, едноставно контактирајте не преку податоците за контакт дадени на оваа веб-страница. Нашиот тим ќе договори со Вас консултативен состанок, со цел да ги разбереме Вашите деловни потреби и да презентираме подетално, како можеме да Ви помогнеме во постигнувањето значителни деловни заштеди. "
-    }
+    },
+    "topQuestion" : {
+        "en" : "FREQUENTLY ASKED QUESTIONS (FAQ) ",
+        "serb" : "ČESTO POSTAVLJENA PITANJA (FAQ) ",
+        "mk" : "ЧЕСТО ПОСТАВУВАНИ ПРАШАЊА (ЧПП) "
+    },
+    
 }
 
 
