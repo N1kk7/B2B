@@ -704,5 +704,6 @@ body{
     }
     .question-number{
         font-size: 10cqw;
+        margin-right: 2cqw;
     }
 }
