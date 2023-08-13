@@ -158,7 +158,6 @@ body{
 }
 .arrow{
     color: blueviolet;
-
 }
 
 .unlock{
@@ -289,7 +288,7 @@ body{
     position: relative;
     display: flex;
     justify-content: space-around;
-    height: 80cqh;
+    height: 85cqh;
     align-items: end;
 }
 .a-image img{
@@ -299,7 +298,6 @@ body{
 }
 .a-tittle{
     font-family: 'Montserrat', sans-serif;
-
     color: white;
     font-size: 2.5cqh;
     width: 18cqw;
@@ -311,7 +309,7 @@ body{
     border-radius: 1cqw;
     border: 1px solid white;
     margin-bottom: 5cqh;
-    min-height: 60vh;
+    min-height: 50vh;
 }
 .a-description{
     font-family: 'Montserrat', sans-serif;
@@ -399,8 +397,11 @@ body{
     display: block;
     letter-spacing: 0.5cqw;
 }
+.member-contact{
+    display: none;
+}
 .question{
-    margin: 5cqh 0;
+    margin: 0 0 5cqh;
     font-family: 'Montserrat', sans-serif;
     width: -webkit-fill-available;
     height: min-content;
@@ -488,29 +489,17 @@ body{
     .main-logo img {
         max-width: 100vw;
     }
-    /* .mainBlock .main-bg img {
-        width: 100vw;
-        max-height: 100cqh !important;
-        object-fit: cover;
-    } */
     .main .main-bg img {
 
         width: 100vw;
-        max-height: 100cqh !important;
         object-fit: cover;
-
-
-        /* width: 100vw;
-        max-height: 70cqh;
-        background-size: auto; */
     }
     .sub-tittle{
         width: 80cqw;
         font-size: 2cqh;
         position: absolute;
         bottom: 13vh;
-        /* background-color: rgba(255,255,255, 0.15); */
-            background-color: rgba(0,0,0, 0.3);
+        background-color: rgba(0,0,0, 0.3);
         border: 1px solid white;
         line-height: 4cqh;
         top: unset;
@@ -539,11 +528,11 @@ body{
         max-width: 90cqw;
     }
     .black-text {
-        font-size: 4cqw;
+        font-size: 5cqw;
         font-family: 'Montserrat', sans-serif;
         position: relative;
         top: 8cqh;
-        line-height: 3cqh;
+        line-height: 4cqh;
     }
     .u-description .tittle {
         bottom: unset;
