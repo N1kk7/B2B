@@ -308,7 +308,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 2.5cqh;
-    width: 22cqw;
+    width: 18cqw;
 }
 .a-elements{
     width: 45cqw;
@@ -447,7 +447,7 @@ body{
     }
     .a-description {
         font-family: 'Montserrat', sans-serif;
-        font-size: 3cqh;
+        font-size: 3.5cqh;
         color: white;
     }
     .choose .one {
