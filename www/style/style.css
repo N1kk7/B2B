@@ -309,9 +309,12 @@ body{
     padding: 1cqw;
     border-radius: 1cqw;
     border: 1px solid white;
-    margin-bottom: 5cqh;
-    min-height: 55vh;
-    top: 5cqh;
+    /* margin-bottom: 5cqh; */
+    /* min-height: 55vh;
+    top: 5cqh; */
+    margin-bottom: 7cqh;
+    min-height: 56vh;
+    top: 3cqh;
     position: relative;
 }
 .a-description{
