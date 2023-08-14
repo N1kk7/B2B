@@ -309,12 +309,12 @@ body{
     padding: 1cqw;
     border-radius: 1cqw;
     border: 1px solid white;
-    /* margin-bottom: 5cqh; */
-    /* min-height: 55vh;
-    top: 5cqh; */
-    margin-bottom: 7cqh;
+    margin-bottom: 5cqh;
+    min-height: 55vh;
+    top: 5cqh;
+    /* margin-bottom: 7cqh;
     min-height: 56vh;
-    top: 1cqh;
+    top: 1cqh; */
     position: relative;
 }
 .a-description{
@@ -453,6 +453,11 @@ body{
     }
     .advantages .tittle-bg {
         width: 60cqw;
+    }
+    .a-elements{
+        margin-bottom: 7cqh;
+        min-height: 56vh;
+        top: 1cqh;
     }
 }
 
