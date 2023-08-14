@@ -442,7 +442,7 @@ body{
     }
     .a-description {
         font-family: 'Montserrat', sans-serif;
-        font-size: 3.5cqh;
+        font-size: 3cqh;
         color: white;
     }
     .chooseNumber{
@@ -455,9 +455,9 @@ body{
         width: 60cqw;
     }
     .a-elements{
-        margin-bottom: 7cqh;
+        /* margin-bottom: 7cqh; */
         min-height: 56vh;
-        top: 1cqh;
+        /* top: 1cqh; */
     }
 }
 
